@@ -1,11 +1,15 @@
 
 import React, {Component} from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image } from 'react-native';
+import Avatar from '../Product/Avatar';
 
 const Login=()=> {
   return (
-
+    
+      
     <View  style={styles.container}>
+      <Avatar/>
+
       <Text style={styles.Text}>
         Login Require</Text>
         <TextInput 
@@ -21,13 +25,13 @@ const Login=()=> {
             style={styles.userBtn}
             onPress={() => alert("Login Works")}
             >
-              <Text style={styles.btnTxt}>Login</Text>
+              <Text style={styles.btnTxt}>LOGIN</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.userBtn}
               onPress={() => alert("Sign In Works")}
             >
-              <Text style={styles.btnTxt}>Sign ZIn</Text>
+              <Text style={styles.btnTxt}>SIGN IN</Text>
             </TouchableOpacity>
             </View>    
     </View> 
@@ -37,7 +41,7 @@ const Login=()=> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: 'green',
     alignItems: 'center',
     justifyContent: 'center',
   },

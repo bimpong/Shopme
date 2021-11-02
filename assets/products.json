@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "5f15d8852a025143f9593a7c"
+  },
+  "image": "https://ssl.www8.hp.com/be/nl/products/laptops/product-detail.html?oid=2100192256",
+  "brand": "HP Pavilion Laptop 15-eh0002nb (2T3D4EA)",
+  "price": 5000,
+  "rating": 1,
+  "numReviews": 5,
+  "isFeatured": true,
+  "name": "Laptop",
+  "description": "The Pavilion 15 laptop offers more power in a smaller profile, so you can work anywhere.Windows 10 Home or other operating systems are available",
+  "category": {
+    "$oid": "5f15d5cdcb4a6642bddc0fe9"
+  },
+  "countInStock": 25,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f15d92ee520d44421ed8e9b"
+  },
+  "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13_hero_09142021_inline.jpg.large.jpg",
+  "brand": "Apple",
+  "price": 9100,
+  "rating": 5,
+  "numReviews": 0,
+  "isFeatured": true,
+  "name": "Iphone 13 mini",
+  "description": "256GB super-fast performance and power efficiency with A15 Bionic, longer battery life water resistance",
+  "category": {
+    "$oid": "5f15d5b7cb4a6642bddc0fe8"
+  },
+  "countInStock": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f15d964e520d44421ed8e9c"
+  },
+  "image": "https://img01.huaweifile.com/sg/ms/ph/pms/product/6901443378807/800_800_2DD92393572A39787C8BA72DDAD7B2B51227E85FC11320F1mp.png",
+  "brand": "Huawei",
+  "price": 3750.7,
+  "rating": 5,
+  "numReviews": 0,
+  "isFeatured": true,
+  "name": "Huawei P40 Pro",
+  "description": "50 MP Ultra Vision Camera 8 GB RAM + 256 GB ROM .",
+  "category": {
+    "$oid": "5f15d5b7cb4a6642bddc0fe8"
+  },
+  "countInStock": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f15d9b3e520d44421ed8e9d"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22_AV5_GEO_US?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591634793000",
+  "brand": "Apple",
+  "price": 1500,
+  "rating": 5,
+  "numReviews": 0,
+  "isFeatured": true,
+  "name": "AirPod Pro",
+  "description": " Airpods Pro with Wireless Charging Case · Active noise cancellation for immersive sound ·",
+  "category": {
+    "$oid": "5f15d5b7cb4a6642bddc0fe8"
+  },
+  "countInStock": 5,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e9e"
+  },
+  "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fjiji.com.gh%2Fbawaleshie%2Fcomputer-accessories%2Fall-types-of-laptop-battery-available-and-delivery-p4ekCNvBhLmcV6ctHdMIg2Dw.html&psig=AOvVaw0uxHHirNaV7ZnCzWCGtFj5&ust=1635874634333000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCJiWiIva9_MCFQAAAAAdAAAAABAF",
+  "brand": "Fancy Buying",
+  "price": 150,
+  "rating": 5,
+  "numReviews": null,
+  "isFeatured": true,
+  "name": "Laptop battery",
+  "description": "HP LA04 Spare High performance",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 2,
+  "__v": 0
+}]
