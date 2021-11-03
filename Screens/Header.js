@@ -12,9 +12,10 @@ const Header=()=>{
           
            </View>
            <View style={styles.content}>
-           <Text style={styles.headname}>ShopApp</Text> 
+           <Text style={styles.headname}>General Mosquito ShopApp</Text> 
         
-        <View>Buy all your phones, laptops and accessories at affordable price</View>
+        <View>
+            <Text>Buy all your phones, laptops and accessories at affordable price</Text></View>
            </View>
            
         
