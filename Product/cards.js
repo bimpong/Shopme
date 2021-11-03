@@ -4,7 +4,7 @@ var { width } = Dimensions.get("window");
 
 const Cards=(props)=>{
 
-    const {name,price, countInStock, image} =props;
+    const {name,price, countInStock,description, image} =props;
 
     return(
         <View style={styles.container} >
@@ -20,10 +20,10 @@ const Cards=(props)=>{
                 {name}
                 </Text> 
                 
-                <Text style={styles.price} >{price}</Text>
+                <Text style={styles.price} >GHC {price}</Text>
                 {countInStock >0 ?(
                     <View style={{marginTop:20}}>
-                        <Button title="Add" color={"black"}/> 
+                        <Button title="Check Order" color={"black"} onPress={()=>alert(description)}/> 
 
                     </View>
                 ):<Text style={{ marginTop:20}}>Out of stock</Text>}

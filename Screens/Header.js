@@ -3,12 +3,22 @@ import { StyleSheet, Text, View , SafeAreaView, Image,Dimensions,TouchableOpacit
 var { width } = Dimensions.get("window");
 const Header=()=>{
     return (
-    <TouchableOpacity>
+    <TouchableOpacity style={{backgroundColor:"gainsboro"}}>
        <View style={styles.header}>
-           < Image style={{ width:width/6, height:width/6}} source={require("../assets/lo.png")}/>
-           <Text style={styles.headname}>ShopApp</Text>
+          
+           
+           < Image style={{ width:width/4, height:width/8, margin:20,resizeMode:"fit"}} source={require("../assets/laptop.png")}/>
+           < Image style={{ width:width/3, height:width/6}} source={require("../assets/phone.png")}/>
+          
+           </View>
+           <View style={styles.content}>
+           <Text style={styles.headname}>ShopApp</Text> 
         
-       </View></TouchableOpacity>
+        <View>Buy all your phones, laptops and accessories at affordable price</View>
+           </View>
+           
+        
+     </TouchableOpacity>
     )
 }
 
@@ -22,15 +32,20 @@ headname:{
 fontStyle:"italic"
 },
 header:{
-    backgroundColor:"white",
+    
+    flexDirection:"row",
     alignItems:"center",
-  
-   
-    padding:10,
+    flexWrap:"wrap",
+    justifyContent:"center",
+    marginTop:20,
+    
 
-   borderBottomWidth:10,
 
-    borderRadius:40
+},
+content:{
+    alignItems:"center",
+    justifyContent:"center",
+    padding:2
 }
 
 })
