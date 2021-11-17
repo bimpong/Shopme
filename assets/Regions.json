@@ -1,0 +1,23 @@
+[ 
+    {"name": "Ashanti Region", "code": "AF"}, 
+    {"name": "Bono Region", "code": "AX"}, 
+    {"name": "Bono East Region", "code": "AL"}, 
+    {"name": "Ahafo Region", "code": "DZ"}, 
+    {"name": "Central Region", "code": "AS"}, 
+    {"name": "Eastern Region", "code": "AD"}, 
+    {"name": "Greater Accra", "code": "AO"}, 
+    {"name": "Northern Region", "code": "AI"}, 
+    {"name": "Savannah Region", "code": "AQ"}, 
+    {"name": "North East Region", "code": "AG"},
+    {"name": "Upper East Region", "code": "DZ"}, 
+    {"name": "Western Region", "code": "AS"}, 
+    {"name": "Volta Region", "code": "AD"}, 
+    {"name": "Oti Region", "code": "AO"}, 
+    {"name": "Upper West", "code": "AI"}, 
+    {"name": "Volta", "code": "AQ"}, 
+    {"name": "Western Region", "code": "AG"},
+    {"name": "Western North", "code": "AG"}
+
+
+    
+  ]

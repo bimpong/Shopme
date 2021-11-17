@@ -1,5 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View , SafeAreaView, Image,Dimensions,TouchableOpacity} from 'react-native'
+import { fonts } from "react-native-elements/dist/config";
+import { color } from "react-native-elements/dist/helpers";
 var { width } = Dimensions.get("window");
 const Header=()=>{
     return (
@@ -12,7 +14,8 @@ const Header=()=>{
           
            </View>
            <View style={styles.content}>
-           <Text style={styles.headname}>General Mosquito ShopApp</Text> 
+           <Text style={styles.headname}>GENERAL MOSQUITO PHONES, LAPTOPS SHOP AND ACCESSORIES</Text> 
+           <Text style={styles.headname}>ShopApp</Text> 
         
         <View>
             <Text>Buy all your phones, laptops and accessories at affordable price</Text></View>
@@ -28,7 +31,8 @@ const Header=()=>{
 
 const styles = StyleSheet.create({
 headname:{
-   fontWeight:"bold"
+   fontWeight:"bold",
+   color: "blue"
 ,
 fontStyle:"italic"
 },
@@ -50,4 +54,4 @@ content:{
 }
 
 })
-export default Header;
+export default Header; 

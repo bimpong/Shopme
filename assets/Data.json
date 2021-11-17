@@ -26,7 +26,7 @@
   "numReviews": 0,
   "isFeatured": true,
   "name": "Iphone 13 mini 256GB",
-  "description": " super-fast performance and power efficiency with A15 Bionic, longer battery life and water resistance",
+  "description": "Super-fast performance and power efficiency with A15 Bionic, longer battery life and water resistance",
   "category": {
     "$oid": "5f15d5b7cb4a6642bddc0fe8"
   },
@@ -70,6 +70,46 @@
   "_id": {
     "$oid": "5f15da13e520d44421ed8e9e"
   },
+  "image": "https://www.ilounge.com/wp-content/uploads/2020/09/TP-Link-AC1200-Smart-Router-1536x891.png.webp",
+  "brand": "TP Link",
+  "price": 295.7,
+  "rating": 5,
+  "numReviews": null,
+  "isFeatured": true,
+  "name": "AC1200 Smart Router",
+  "description": "TP-Link AC1200 Gigabit WiFi Router (Archer A6) - 5GHz Dual Band Mu-MIMO Wireless Internet Router",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 2,
+  "__v": 0
+  
+
+},
+{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e9e"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MD819?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1600799998000",
+  "brand": "Apple",
+  "price": 170,
+  "rating": 5,
+  "numReviews": null,
+  "isFeatured": true,
+  "name": "Lightning to USB Cable (2 m)",
+  "description": "2-meter USB 2.0 cable connects your iPhone, iPad, or iPod with Lightning connector to your computer’s USB port for syncing and charging. Or you can connect to the Apple USB Power Adapter for convenient charging from a wall outlet.",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 5,
+  "__v": 0
+  
+
+},
+{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e9e"
+  },
   "image": "https://m.media-amazon.com/images/I/516TuRSQN2L._SL1024_.jpg",
   "brand": "HP",
   "price": 150,
@@ -78,6 +118,67 @@
   "isFeatured": true,
   "name": "Laptop Battery for HP Pavilion 15-AC647TU",
   "description": "HP LA04 4500mAh Spare High performance",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 2,
+  "__v": 0
+  
+
+},
+{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e9e"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202110?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1632788574000",
+  "brand": "Apple",
+  "price": 20994,
+  "rating": 5,
+  "numReviews": null,
+  "isFeatured": true,
+  "name": "Macbook Pro(16-inch,32-Core GPU)1TB SSD ",
+  "description": "Liquid Retina XDR display,Three Thunderbolt 4 ports, HDMI port, SDXC card slot, MagSafe 3 port,Magic Keyboard with Touch ID, Force Touch trackpad 140W USB-C Power Adapter",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 5,
+  "__v": 0
+  
+
+},
+{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e9e"
+  },
+  "image": "https://media.router-switch.com/media/catalog/product/cache/b90fceee6a5fa7acd36a04c7b968181c/s/a/samsung-galaxy-s21-ultra-5g-sm-g9980.jpg",
+  "brand": "Samsung",
+  "price": 8385.40,
+  "rating": 5,
+  "numReviews": null,
+  "isFeatured": true,
+  "name": "Samsung Galaxy S21 Ultra 5G SM-G9980",
+  "description": "Galaxy S21 Ultra 5G SM-G9980,12GB + 256GB, 6.8 inches, Qualcomm Snapdragon 888, WQHD+ & 120Hz, 108 million, 100x double telephoto camera, support S Pen.",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 5,
+  "__v": 0
+  
+
+}
+,
+{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e9e"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-gold-select?wid=470&hei=556&fmt=png-alpha&.v=1631652956000",
+  "brand": "Apple",
+  "price": 11295,
+  "rating": 5,
+  "numReviews": null,
+  "isFeatured": true,
+  "name": "iPhone 13 Pro Max(1TB 6.7-inch display)",
+  "description": "Sensors Face ID, accelerometer, gyro, proximity, compass, barometer Siri natural language commands and dictation Ultra Wideband (UWB) support BATTERY Type Li-Ion 4352 mAh, non-removable (16.75 Wh),Charging Fast charging 20W, 50% in 30 min (advertised),USB Power Delivery 2.0 Super-fast performance and power efficiency",
   "category": {
     "$oid": "5f15d5b2cb4a6642bddc0fe7"
   },
