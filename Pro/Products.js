@@ -15,7 +15,6 @@ import * as actions from "../Redux/Actions/cartActions"
 
 
 import Search from "../Searchs/Search";
-
 var { width } = Dimensions.get("window");
 const Data = require("../assets/Data.json");
 

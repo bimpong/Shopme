@@ -29,7 +29,7 @@ return(
   >
        <Bottomtab.Screen
     name="General Mosquito's Phones And Accessories"
-    component={HomeNavigator}
+    component={HomeNav}
     options={{ title:"General Mosquito's Phones And Accessories", 
   
     headerStyle:{backgroundColor:"blue",
@@ -54,7 +54,7 @@ return(
   
   <Bottomtab.Screen
     name="Cart"
-    component={CartNavigator}
+    component={CartNav}
     options={{
       title:"Cart", 
     headerStyle:{backgroundColor:"blue",
@@ -83,7 +83,7 @@ return(
   />
    <Bottomtab.Screen
     name="Categories"
-    component={HomeNavigator}
+    component={HomeNav}
     options={{
       title:"Categories", 
       headerStyle:{backgroundColor:"blue",
@@ -109,7 +109,7 @@ return(
   />
    <Bottomtab.Screen
     name="User"
-    component={UserNavigator}
+    component={UserNav}
     options={{  title:"User", 
     headerStyle:{backgroundColor:"blue",
     borderTopWidth:20,height:80,

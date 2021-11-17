@@ -29,7 +29,7 @@ const Login = (props) => {
       Toast.show({
         topOffset: 60,
         type: "success",
-        text1: "All correct Succeeded",
+        text1: "Logins Succeeded",
         
       });
     }
@@ -60,9 +60,9 @@ const Login = (props) => {
 
       </View>
       <View style={[{ marginTop: 40 }, styles.buttonGroup]}>
-        <Text style={styles.middleText}>Don't have an account yet?</Text>
-        <Button title="Register"
-        onPress={() => props.navigation.navigate("Register")}
+        <Text style={styles.middleText}>Don't have Account</Text>
+        <Button title="Create Account"
+        onPress={() => props.navigation.navigate("Create Account")}
          />
         
       </View>
